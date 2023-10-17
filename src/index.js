@@ -3,6 +3,7 @@ const express = require('express')
 const app = express()
 
 app.use('/', (req, res) => {
+  console.log("Something is coming... I'm so scared papa...");
   res.send("I'm here father!")
 })
 
